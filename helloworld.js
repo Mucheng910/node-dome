@@ -14,7 +14,7 @@ function updb1() {
 }
 updb1();
 console.log("updb1 succeed");
-console.log("123");
+console.log("write web with ejs");
 
 
 function updb2(done) {
@@ -25,7 +25,7 @@ function updb2(done) {
 updb2(function () {
     console.log("updb2 succeed .");
 });
-console.log("123"); //非阻塞性处理 (包含一个回调函数updb2)
+console.log("write web with ejs"); //非阻塞性处理 (包含一个回调函数updb2)
 
 
 //
@@ -36,4 +36,4 @@ console.log("123"); //非阻塞性处理 (包含一个回调函数updb2)
 //  }
 //  updb1();
 // console.log("updb1 succeed");
-// console.log("123");
+// console.log("write web with ejs");
